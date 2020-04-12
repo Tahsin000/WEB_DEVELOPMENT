@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg,#1de5e2,#b488f7);
+    display: inline-block;
+}
+.white_part{
+    width: 350px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Loging{
+    color: #1ef1fc;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+p{
+    color: #e0e0e0;
+    font-size: 10px;
+}
+span.L{
+    font-size: 35px;
+}
+.claps{
+    padding: 0 5px;
+}
+.e-mail{
+    padding: 50px 0 0 0;
+}
+.password{
+    padding: 25px 0px;
+}
+.borter_01{
+    width: 275px;
+    height: 3px;
+    margin: 5px 0;
+    background: #b488f7;   
+}
+
+input{
+    border: none;
+}
+input.my_in{
+    padding: 10px 40px;
+}
+
+
+.red01{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-image: linear-gradient(90deg,#b488f7,#1de5e2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(85%,-135%);
+}
+.red02{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-image: linear-gradient(90deg,#1de5e2,#b488f7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+        transform: translate(-189%,37%);
+}
+.forgot{
+    font-size: 15px;
+    color: #c0c0c0;
+    padding: 5px ;
+    
+}
+.log{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;  
+}
+
+.for{
+    color: #c0c0c0;
+    text-decoration: none; 
+}
+
+button{
+    width: 190px;
+    height: 30px;
+    background-image: linear-gradient(90deg,#bd68df,#5f21ff);
+    border: none;
+}
+.Loging_buttom{
+    padding: 30px 0 0 0;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%,-50%);
+}
+    
+</style>
+<body>
+    <section>
+        <div class="white_part">
+            <div class="red01"></div>
+             <div class="red02"></div>
+             
+            <section class="text">
+            <div class="Loging"><span class="L">L</span>oging
+            <p>Enter your details below to continue</p>
+            </div>
+            <div class="e-mail">
+                <span class="i_email">=icon=</span>
+                <input class="my_in"  type="mail" placeholder="E-mail Address">
+                <div class="borter_01">
+                    
+                </div>
+            </div>
+            <div class="password">
+                <span class="i_pass">=icon=</span>
+                <input class="my_in"  type="password" placeholder=" Password">
+                <div class="borter_01"></div>
+            </div>
+            <div class="forgot"><a class="for" href="#">Forgot password</a><span class="claps">></span>
+            </div>
+            <div class="Loging_buttom">
+                <button type="button" ><a class="log" href="#">Loging</a></button>
+            </div>   
+            </section>
+        </div>
+    </section>
+</body>
+</html>
