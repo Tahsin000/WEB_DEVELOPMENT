@@ -59,6 +59,26 @@ ll BigMod(ll b, ll p, ll m)
     return ans;
 }
 
+void sieve (vector<int>&v)
+{
+    v.assign(MX, 0);
+    v[0] = 1;
+    v[1] = 1;
+    for (int i=4; i<=MX; i+=2) v[i] = 1;
+
+    for (int i=3; i*i<=MX; i+=2)
+    {
+        if (v[i] == 0)
+        {
+            for (int j=i*i; j<=MX; j+= i*2)
+            {
+                v[j] = 1;
+            }
+        }
+    }
+
+}
+
 int binarySearch(int arr[], int l, int r, int x)
 {
     if (r >= l)
