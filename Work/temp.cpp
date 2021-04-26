@@ -11,7 +11,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
-#define MX 1000000007
+#define MX 100000000
 #define fr(i, a, b) for (ll i=a; i<b; i++)
 #define rfr(i, a, b) for (ll i=a; i>=b; i--)
 #define dev(x) cout << #x << " : " << x << endl;
@@ -24,12 +24,13 @@ int binarySearch(int arr[], int l, int r, int x);
 ll gcd(ll a, ll b);
 ll lcm(ll a, ll b);   
 ll BigMod(ll b, ll p, ll m);
+void sieve (vector<ll>&v);
 
 /////////////////////////////////////////////////////
 
 void solve()
 {
-    ll n ;
+    ll n, a,tmp = 0, rem = 0;
 }
 
 /////////////////////////////////////////////////////
@@ -59,7 +60,19 @@ ll BigMod(ll b, ll p, ll m)
     return ans;
 }
 
-void sieve (vector<int>&v)
+int binarySearch(int arr[], int l, int r, int x)
+{
+    if (r >= l)
+    {
+        int mid = l+(r-l) / 2;
+        if (arr[mid] == x) return mid;
+        if (arr[mid] > x) return binarySearch(arr, l, mid-1, x);
+        return binarySearch(arr, mid+1, r, x);
+    }
+    return -1 ;
+}
+
+void sieve (vector<ll>&v)
 {
     v.assign(MX, 0);
     v[0] = 1;
@@ -77,18 +90,6 @@ void sieve (vector<int>&v)
         }
     }
 
-}
-
-int binarySearch(int arr[], int l, int r, int x)
-{
-    if (r >= l)
-    {
-        int mid = l+(r-l) / 2;
-        if (arr[mid] == x) return mid;
-        if (arr[mid] > x) return binarySearch(arr, l, mid-1, x);
-        return binarySearch(arr, mid+1, r, x);
-    }
-    return -1 ;
 }
 
 ll lcm(ll a, ll b)
