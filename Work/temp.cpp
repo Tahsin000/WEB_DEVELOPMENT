@@ -24,13 +24,14 @@ int binarySearch(int arr[], int l, int r, int x);
 ll gcd(ll a, ll b);
 ll lcm(ll a, ll b);   
 ll BigMod(ll b, ll p, ll m);
+void HHJN ();
 void sieve (vector<ll>&v);
 
 /////////////////////////////////////////////////////
 
 void solve()
 {
-    ll n, a,tmp = 0, rem = 0;
+    ll t, tmp = 0, rem;
 }
 
 /////////////////////////////////////////////////////
@@ -38,6 +39,7 @@ void solve()
 int main()
 {
     // fun();
+    HHJN();
     solve();
    
     // test();
@@ -70,6 +72,13 @@ int binarySearch(int arr[], int l, int r, int x)
         return binarySearch(arr, mid+1, r, x);
     }
     return -1 ;
+}
+
+void HHJN ()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
 }
 
 void sieve (vector<ll>&v)
