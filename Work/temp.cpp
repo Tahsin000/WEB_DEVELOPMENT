@@ -15,16 +15,20 @@ using namespace std;
 #define fr(i, a, b) for (ll i=a; i<b; i++)
 #define rfr(i, a, b) for (ll i=a; i>=b; i--)
 #define dev(x) cout << #x << " : " << x << endl;
+#define HHJN ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+
 #define all(n) n.begin(), n.end()
 #define uper(n) transform(n.begin(), n.end(), n.begin(), ::toupper);
 #define lower(n) transform(n.begin(), n.end(), n.begin(), ::tolower);
+
+#define vl(n) ll v[n+10]
+#define pb push_back
 
 // ll arr[mx]= {0}, prime[mx];
 int binarySearch(int arr[], int l, int r, int x);
 ll gcd(ll a, ll b);
 ll lcm(ll a, ll b);   
 ll BigMod(ll b, ll p, ll m);
-void HHJN ();
 void sieve (vector<ll>&v);
 
 /////////////////////////////////////////////////////
@@ -39,7 +43,7 @@ void solve()
 int main()
 {
     // fun();
-    HHJN();
+    HHJN;
     solve();
    
     // test();
@@ -72,13 +76,6 @@ int binarySearch(int arr[], int l, int r, int x)
         return binarySearch(arr, mid+1, r, x);
     }
     return -1 ;
-}
-
-void HHJN ()
-{
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
 }
 
 void sieve (vector<ll>&v)
