@@ -21,7 +21,7 @@ using namespace std;
 #define uper(n) transform(n.begin(), n.end(), n.begin(), ::toupper);
 #define lower(n) transform(n.begin(), n.end(), n.begin(), ::tolower);
 
-#define vl(n) ll v[n+10]
+#define vl(n) std::vector<ll> v(n+10);
 #define pb push_back
 
 // ll arr[mx]= {0}, prime[mx];
