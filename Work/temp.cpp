@@ -4,9 +4,12 @@
      الجامعة الإسلامية العالمية شيتاغونغ
 
     لا تحزن ان الله معنا
-*/
 
 ///////////// IIUC - 49 /////////////
+
+    PROBLEM :
+*/
+
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -16,6 +19,8 @@ using namespace std;
 #define rfr(i, a, b) for (ll i=a; i>=b; i--)
 #define dev(x) cout << #x << " : " << x << endl;
 #define HHJN ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+#define yes cout << "YES\n"
+#define no cout << "NO\n"
 
 #define all(n) n.begin(), n.end()
 #define uper(n) transform(n.begin(), n.end(), n.begin(), ::toupper);
@@ -30,6 +35,8 @@ ll gcd(ll a, ll b);
 ll lcm(ll a, ll b);   
 ll BigMod(ll b, ll p, ll m);
 void sieve (vector<ll>&v);
+string to_string(ll n);
+ll to_int(string s);
 
 /////////////////////////////////////////////////////
 
@@ -40,10 +47,15 @@ void solve()
 
 /////////////////////////////////////////////////////
 
+void fun()
+{
+    
+}
+
 int main()
 {
-    // fun();
     HHJN;
+    // fun();
     solve();
    
     // test();
@@ -103,4 +115,25 @@ ll lcm(ll a, ll b)
     return (a / gcd(a, b)) * b;
 }
 
+string to_string(ll n)
+{
+    string s;
+    while(n)
+    {
+        s.pb(n%10+'0');
+        n/=10;
+    }
+    reverse(all(s));
+    return s;
+}
 
+ll to_int(string s)
+{
+    ll n = 0, i =0, j = 1;
+    fr(i, 0, s.size())
+    {
+        n += (s[s.size()-(i+1)] - '0') * j;
+        j*=10;
+    }
+    return n;
+}
