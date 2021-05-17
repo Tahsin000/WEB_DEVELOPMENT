@@ -14,15 +14,17 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
-#define MX 100000000
+#define MX 100100
 #define fr(i, a, b) for (ll i=a; i<b; i++)
 #define rfr(i, a, b) for (ll i=a; i>=b; i--)
 #define dev(x) cout << #x << " : " << x << endl;
 #define HHJN ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+#define test ll t; cin >> t;while(t--){solve();};
 #define yes cout << "YES\n"
 #define no cout << "NO\n"
 
 #define all(n) n.begin(), n.end()
+#define sz(n) n.size()
 #define uper(n) transform(n.begin(), n.end(), n.begin(), ::toupper);
 #define lower(n) transform(n.begin(), n.end(), n.begin(), ::tolower);
 
@@ -40,11 +42,11 @@ ll to_int(string s);
 
 /////////////////////////////////////////////////////
 
+// std::vector<ll> v;
 void solve()
 {
     ll t, tmp = 0, rem;
 }
-
 /////////////////////////////////////////////////////
 
 void fun()
@@ -56,10 +58,10 @@ int main()
 {
     HHJN;
     // fun();
-    solve();
-   
-    // test();
+    // sieve(v);
+    test
     return 0;
+    solve();
 }
 
 ll gcd(ll a, ll b)
