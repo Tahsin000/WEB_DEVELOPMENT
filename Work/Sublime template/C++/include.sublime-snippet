@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 /*
     بسم الله الرحمن الرحيم
      الجامعة الإسلامية العالمية شيتاغونغ
@@ -25,6 +25,7 @@ using namespace std;
 #define pb push_back
 #define sz(n) n.size()
 
+ll Pow(ll b, ll p){return p==0? 1:b*Pow(b, p-1);}
 ll gcd(ll a, ll b) {if (b==0) return a;return gcd(b, a%b);}
 ll lcm(ll a, ll b) {return (a / gcd(a, b)) * b;}
 string to_String(ll n) {string s;while(n){s.pb(n%10+'0');n/=10;}reverse(all(s));return s; }
@@ -40,7 +41,6 @@ ll fun(ll n)
 /* Start Your CODE*/
 void solve()
 {
-     
     
 }
 /* Start Your MAIN*/
@@ -66,10 +66,9 @@ void sieve (vector<ll>&v)
     }
 }
 
-
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>include</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.c++</scope>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>include</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.c++</scope>
 </snippet>
