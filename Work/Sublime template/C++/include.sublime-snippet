@@ -24,6 +24,8 @@ using namespace std;
 #define vl(n)           std::vector<ll> v(n)
 #define pb              push_back
 #define sz(n)           n.size()
+#define ff              first
+#define ss              second
 
 ll Pow(ll b, ll p){return p==0? 1:b*Pow(b, p-1);}
 ll gcd(ll a, ll b) {return(b==0)?a:gcd(b, a%b);}
@@ -66,7 +68,6 @@ void sieve (vector<ll>&v)
         }
     }
 }
-
 
 
 
