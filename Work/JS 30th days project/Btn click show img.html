@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 10px;
+        }
+        button
+        {
+            padding: 20px 40px;
+            background-color: white;
+            margin: 50px;
+            border-radius: 50px;
+        }
+        #I
+        {
+            height: 1000px;
+            opacity: 80%;
+        }
+        button:focus
+        {
+            background-color: black;
+            color: white;
+            border-radius: 50px;
+        }
+        button:focus:hover
+        {
+            background-color: rgb(39, 39, 39);
+            color: white;
+            border-radius: 50px;
+        }
+        .btn01:hover
+        {
+            background-color:rgb(245, 245, 245)
+        }
+        h2
+        {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+    </style>
+    <h2>Show the image as soon as you click the button</h2>
+    <button class="btn01" onclick="img1()"><h2>IMG_01</h2></button>
+    <button class="btn01"onclick="img2()"><h2>IMG_02</h2></button>
+    <p></p>
+    <img id="I" height="650px" src="#" alt="">
+    
+    <script>
+        var IM = document.getElementById('I');
+        function img1()
+        {
+            IM.src = "https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80";
+        }
+        function img2()
+        {
+            IM.src = "https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=522&q=80";
+        }
+    </script>
+</body>
+</html>
