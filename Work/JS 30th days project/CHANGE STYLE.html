@@ -15,7 +15,7 @@
         }
         .my-Style
         {
-            font-size: 50px;
+            font-size: 25px;
             font-family:monospace;
             text-transform: uppercase;
             color: crimson;
@@ -57,7 +57,10 @@
     <br/>
     <br/>
     <button onclick="btn()"> click </button>
+    <span id="theme">Black theme</span>
+    <p></p>
     <button onclick="btnSizePlus()"> + </button>
+    <span id="si">Font size : 25px</span>
     <button onclick="btnSizeMainesse()"> - </button>
 
     <h2 id="myStyle" style="text-align: center;">
@@ -71,15 +74,18 @@
         function btn()
         {
             cont++;
+            var theme = document.getElementById('theme');
             var sty = document.querySelector("#myStyle");
             if (cont%2 == 0)
             {
                 sty.classList.remove("my-Style")
+                theme.innerHTML = "Black theme";
             }
             else 
             {
                 // var sty = document.querySelector(".myStyle");
                 sty.classList.add("my-Style")
+                theme.innerHTML = "Red theme";
             }
         }
         function btnSizePlus()
@@ -89,6 +95,7 @@
             var text = size + "px";
             // console.log(text);
             btnStyPlus.style.fontSize = text;
+            document.getElementById("si").innerHTML ="Font size : "+ (size) + "px"; 
         }
         function btnSizeMainesse()
         {
@@ -97,8 +104,8 @@
             var text = size + "px";
             // console.log(text);
             btnStyPlus.style.fontSize = text;
+            document.getElementById("si").innerHTML ="Font size : "+ (size) + "px"; 
         }
-
 
     </script>
 </body>
