@@ -22,6 +22,8 @@ using namespace std;
 #define vl(n)           std::vector<ll> v(n)
 #define pb              push_back
 #define sz(n)           n.size()
+#define ff              first
+#define ss              second
 
 ll Pow(ll b, ll p){return p==0? 1:b*Pow(b, p-1);}
 ll gcd(ll a, ll b) {return(b==0)?a:gcd(b, a%b);}
@@ -32,6 +34,9 @@ ll to_int(string s) {ll n = 0, i =0, j = 1;fr(i, 0, s.size()){n += (s[s.size()-(
 ll BigMod(ll b, ll p, ll m) {if (p == 0) return 1;ll ans = BigMod(b, p/2, m);ans = ( ans * ans ) % m;if (p % 2 == 1) ans = (ans * b) % m;return ans;}
 ll binarySearch(ll arr[], ll l, ll r, ll x) {if (r >= l){ll mid = l+(r-l) / 2;if (arr[mid] == x) return mid;if (arr[mid] > x) return binarySearch(arr, l, mid-1, x);return binarySearch(arr, mid+1, r, x);}return -1 ;}
 ll ModInv(ll a, ll m){return BigMod(a, m-2, m);}
+ll egcd(ll a, ll b, ll &x, ll &y){if(b==0){x=1;y=0;return a;}ll x1,y1;ll d=egcd(b,a%b,x1,y1);x=y1;y=x1-(a/b)*y1;return d;}
+ll fact(ll n){if(n==1)return 1;else return (n * fact(n-1));}
+
 /* Start Your FUN*/
 ll fun(ll n)
 {
@@ -45,11 +50,14 @@ void solve()
 /* Start Your MAIN*/
 int main()
 {
-    // pera;
+    /// pera;
     HHJN;
     
-    // test
     solve();
+    /*
+    test
+    fun();
+    */
     return 0;
 
 }
@@ -64,5 +72,13 @@ void sieve (vector<ll>&v)
         }
     }
 }
+
+
+/*
+    ╔╗╔╦╗╔╗╔╦═╦╗
+    ║╚╝║╚╝║║║║║║
+    ║╔╗║╔╗╠╣║║║║
+    ╚╝╚╩╝╚╩═╩╩═╝
+*/
 
 
