@@ -22,6 +22,9 @@ body{
 .open{
     display: none;
 }
+p{
+    margin-bottom: 1ch;
+}
 .active{
     display: block;
 }
