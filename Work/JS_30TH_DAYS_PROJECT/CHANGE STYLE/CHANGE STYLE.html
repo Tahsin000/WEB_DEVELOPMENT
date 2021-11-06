@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        body
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .my-Style
+        {
+            font-size: 25px;
+            font-family:monospace;
+            text-transform: uppercase;
+            color: crimson;
+        }
+        button
+        {
+            font-size: 2rem;  
+            padding: 20px 40px;
+            background-color: white;
+            margin: 50px;
+            border-radius: 50px;
+        }
+        button:focus:hover
+        {
+            background-color: rgb(39, 39, 39);
+            color: white;
+            border-radius: 50px;
+        }
+        .btn01:hover
+        {
+            background-color:rgb(245, 245, 245)
+        }
+        h1
+        {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        button:focus
+        {
+            background-color: black;
+            color: white;
+            border-radius: 50px;
+        }
+    </style>
+
+    <h1>Font style change in java</h1>
+    <br/>
+    <br/>
+    <br/>
+    <button onclick="btn()"> click </button>
+    <span id="theme">Black theme</span>
+    <p></p>
+    <button onclick="btnSizePlus()"> + </button>
+    <span id="si">Font size : 25px</span>
+    <button onclick="btnSizeMainesse()"> - </button>
+
+    <h2 id="myStyle" style="text-align: center;">
+            Muhammad Tahsin Abrar
+    </h2>
+
+    <script>
+        var cont = 0;
+        var size = 25;
+
+        function btn()
+        {
+            cont++;
+            var theme = document.getElementById('theme');
+            var sty = document.querySelector("#myStyle");
+            if (cont%2 == 0)
+            {
+                sty.classList.remove("my-Style")
+                theme.innerHTML = "Black theme";
+            }
+            else 
+            {
+                // var sty = document.querySelector(".myStyle");
+                sty.classList.add("my-Style")
+                theme.innerHTML = "Red theme";
+            }
+        }
+        function btnSizePlus()
+        {
+            var btnStyPlus = document.querySelector("#myStyle");
+            size +=3;
+            var text = size + "px";
+            // console.log(text);
+            btnStyPlus.style.fontSize = text;
+            document.getElementById("si").innerHTML ="Font size : "+ (size) + "px"; 
+        }
+        function btnSizeMainesse()
+        {
+            var btnStyPlus = document.querySelector("#myStyle");
+            size -= 3;
+            var text = size + "px";
+            // console.log(text);
+            btnStyPlus.style.fontSize = text;
+            document.getElementById("si").innerHTML ="Font size : "+ (size) + "px"; 
+        }
+
+    </script>
+</body>
+</html>
