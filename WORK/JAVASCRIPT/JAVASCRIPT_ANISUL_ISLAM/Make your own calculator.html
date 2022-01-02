@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>        
+        /* 
+        ________________________________________________
+             SUM
+        */    
+        document.write("*** 01 ***<br>");
+        var num1 = 10, num2 = 20, sum , sub;
+        sum = num1 + num2;
+        document.write("SUM is :  " + sum + "<br><br><br>");
+    
+        /* 
+        ________________________________________________
+            SUB
+        */    
+        document.write("*** 02 ***<br>");
+        num1 = 10; 
+        num2 = 20;
+        sub = num1 - num2;
+        document.write("SUB is :  " + sub + "<br><br><br>");
+
+        /* 
+        ________________________________________________
+            User define
+        */    
+        document.write("*** 03 ***<br>");
+        num1 = prompt("Enter 1st number : ");
+        num2 = prompt("Enter 2nd number : ");
+
+        num1 = parseInt(num1, 10);num2 = parseInt(num2, 10);
+        sub = num1 - num2; sum = num1 + num2; 
+        document.write("SUM is :  " + sum + "<br>");
+        document.write("SUB is :  " + sub + "<br><br><br>");
+
+        /* 
+        ________________________________________________
+            TASK_
+        */    
+        document.write("*** 04 (TASK) ***<br>");
+
+        num1 = parseInt(num1, 10);num2 = parseInt(num2, 10);
+        sub = num1 - num2; sum = num1 + num2; 
+        var mul = num1 * num2, div = num1 / num2, rem = num1 / num2;
+        document.write("SUM is &emsp;: "+ num1 + " + " + num2 + " = " + sum + "<br>");
+        document.write("SUB is &emsp;: "+ num1 + " - " + num2 +  " = " + sub + "<br>");
+        document.write("MULTI is &emsp;: "+ num1 + " x " + num2 +  " = " + mul + "<br>");
+        document.write("DIV is &emsp;: "+ num1 + "/" + num2 +  " = " + div + "<br>");
+        document.write("REM is &emsp;: "+ num1 + " % " + num2 +  " = " + rem + "<br>");
+
+    </script>
+</body>
+</html>

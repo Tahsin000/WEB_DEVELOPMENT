@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* 
+        ________________________________________________
+            Programs using logical operators
+        */    
+        document.write("*** 01(LETTER GRADE) ***<br>");
+        document.write("*** [Programs using logical operators] ***<br><br>");
+        var x = parseInt(prompt("Enter 1st value :"));
+            if (x > 100 || x < 0) 
+                document.write(x + " Number is Invalid "+"<br><br><br>");
+            else if (x <= 100 && x >= 80 )
+                document.write(x + " Number is A+ "+"<br><br><br>");
+            else if (x < 79 && x >= 70)
+                document.write(x + " Number is A "+"<br><br><br>");
+            else if (x <= 69 && x >= 60)
+                document.write(x + " Number is A- "+"<br><br><br>");
+            else if (x <= 59 && x >= 50)            
+                document.write(x + " Number is B "+"<br><br><br>");
+            else if (x <= 49 && x >= 40)
+                document.write(x + " Number is C "+"<br><br><br>");
+            else if (x <= 39 && x >= 33)
+                document.write(x + " Number is D "+"<br><br><br>");
+            else 
+                document.write(x + " Number is Fail "+"<br><br><br>");
+
+        /* 
+        ________________________________________________
+            MAX value in three number 
+        */    
+            document.write("*** 02(MAX value in three number) ***<br>");
+            document.write("*** [x = 10, y = 20 , z = 30] ***<br>");
+            x = 10, y = 20, z = 30;
+            var ans = Math.max(x, y, z); 
+            document.write(ans + " is the Max number"+"<br><br><br>");
+
+        /* 
+        ________________________________________________
+            Vowel / Consonant
+        */    
+            document.write("*** 03(Vowel / Consonant)[x === 'a'] ***<br>");
+            x = "a";
+            if (x === "a" || x === "e" || x === "i" || x === "o" || x === "u" ) 
+                document.write(x + " is the Vowel"+"<br><br><br>");
+            else 
+                document.write(x + " is the Consonant"+"<br><br><br>");
+        
+
+
+    </script>
+</body>
+</html>

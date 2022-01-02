@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* 
+        ________________________________________________
+            Relational and Logical Operator ("10 < 22")
+        */    
+            document.write("*** 01 ('10 < 22') ***<br>");
+            var x = 10, y = 22;
+            document.write("Relational value is &emsp;: " + (x < y) +"<br><br><br>");
+
+        /* 
+        ________________________________________________
+            Relational and Logical Operator ("10 > 22")
+        */    
+            document.write("*** 02 ('10 > 22') ***<br>");
+            document.write("Relational value is &emsp;: " + (x > y) +"<br><br><br>");
+
+        /* 
+        ________________________________________________
+            Relational and Logical Operator ("10 == 10")
+        */    
+            document.write("*** 03 ('10 == 10') ***<br>");
+            x = 10; y = 10;
+            document.write("Relational value is &emsp;: " + (x == y) +"<br><br><br>");
+
+        /* 
+        ________________________________________________
+            Relational and Logical Operator (" 10 == '10' ")
+        */    
+            document.write("*** 04 ( 10 == '10' ) ***<br>");
+            x = 10; y = 10;
+            var z="10";
+            document.write("Relational value is &emsp;: " + (x == y) +"<br><br><br>");
+
+        /* 
+        ________________________________________________
+            Relational and Logical Operator (" 10 == '10' ") (DATA TYPE CHECK)
+        */    
+            document.write("*** 05 ( 10 === '10' [DATA TYPE CHECK] ) ***<br>");
+            x = 10; y = 10;
+            var z="10";
+            document.write("Relational value is &emsp;: " + (x === z) +"<br><br><br>");
+
+    </script>
+</body>
+</html>
