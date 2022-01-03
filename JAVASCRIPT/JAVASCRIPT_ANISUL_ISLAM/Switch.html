@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* 
+        ________________________________________________
+            SWITCH OR IF 
+        */    
+            document.write("*** 01 (IF DIYA KORCHI) ***<br>");
+            var digit = parseInt(prompt("Enter digit : "));
+            if (digit == 0) 
+                document.write("ZERO &emsp; <br><br><br>");
+            if (digit == 1) 
+                document.write("ONE &emsp; <br><br><br>");
+            if (digit == 2) 
+                document.write("TWO &emsp; <br><br><br>");
+            if (digit == 3) 
+                document.write("THREE &emsp; <br><br><br>");
+            if (digit == 4) 
+                document.write("FOUR &emsp; <br><br><br>");
+            if (digit == 5) 
+                document.write("FIVE &emsp; <br><br><br>");
+            if (digit == 6) 
+                document.write("SIX &emsp; <br><br><br>");
+            if (digit == 7) 
+                document.write("SEVEN &emsp; <br><br><br>");
+            if (digit == 8) 
+                document.write("EIGHT &emsp; <br><br><br>");
+            if (digit == 9) 
+                document.write("NINE &emsp; <br><br><br>");
+                
+        /* 
+        ________________________________________________
+        SWITCH 
+        */    
+            document.write("*** 01 (SWITCH DIYA KORCHI) ***<br>");
+            var s = digit.toString();
+            switch(s){
+                case "0" :
+                    document.write("ZERO &emsp; <br><br><br>");
+                    break;
+                case "1" :
+                    document.write("ONE &emsp; <br><br><br>");
+                    break;
+                case "2" :
+                    document.write("TWO &emsp; <br><br><br>");
+                    break;
+                case "3" :
+                    document.write("THREE &emsp; <br><br><br>");
+                    break;
+                case "4" :
+                    document.write("FOUR &emsp; <br><br><br>");
+                    break;
+                case "5" :
+                    document.write("FIVE &emsp; <br><br><br>");
+                    break;
+                case "6" :
+                    document.write("SIX &emsp; <br><br><br>");
+                    break;
+                case "7" :
+                    document.write("SEVEN &emsp; <br><br><br>");
+                    break;
+                case "8" :
+                    document.write("EIGHT &emsp; <br><br><br>");
+                    break;
+                case "9" :
+                    document.write("NINE &emsp; <br><br><br>");
+                    break;
+                default : 
+                    document.write("NOT A DIGIT &emsp; <br><br><br>");
+
+            }
+        /* 
+        ________________________________________________
+            Vowel and consonant 
+        */    
+        document.write("*** 01 (Vowel and consonant SWITCH DIYA KORCHI [s == 'a']) ***<br>");
+            s = "a"
+            switch(s){
+                case "a" :
+                    document.write("VOWEL &emsp; <br><br><br>");
+                    break;
+                case "e" :
+                    document.write("VOWEL &emsp; <br><br><br>");
+                    break;
+                case "i" :
+                    document.write("VOWEL &emsp; <br><br><br>");
+                    break;
+                case "o" :
+                    document.write("VOWEL &emsp; <br><br><br>");
+                    break;
+                case "u" :
+                    document.write("VOWEL &emsp; <br><br><br>");
+                default : 
+                    document.write("CONSONANT &emsp; <br><br><br>");
+
+            }
+
+    </script>
+</body>
+</html>
