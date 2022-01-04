@@ -22,10 +22,23 @@
             Print EVEN NUMBER 1 - 100 using LOOP
         */    
                 document.write("*** 02(Print EVEN NUMBER 1 - 100) ***<br>");
-                for(var i=2; i<=100; i+=2){
+                for(var i=0; i<=100; i++){
+                    if (i % 2 === 0)
                     document.write(i + " ");
                 }
         
+         /* 
+        ________________________________________________
+            n - m number all EVEN sum value print user input 
+        */    
+        document.write("*** 03(n - m number all EVEN sum value print) ***<br>");
+                var a = parseInt(prompt("Enter 1st number : ")), sum = 0;
+                var b = parseInt(prompt("Enter 2nd number : "));
+                for(var i=a; i<=b; i++){
+                    if (i % 2 === 0)
+                        sum =sum +  i;
+                }
+                document.write("SUM VALUE IS : "+ sum + "<br><br><br>");
     </script>
 </body>
 </html>

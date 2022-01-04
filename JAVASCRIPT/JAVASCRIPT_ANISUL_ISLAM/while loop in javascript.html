@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* 
+        ________________________________________________
+            WHILE LOOP 1- 100 sum using while loop
+        */  
+            document.write("*** 01(WHILE LOOP 1- 100 sum using while loop   ) ***<br>");
+            var i = 0, sum = 0;
+            while(i<=100){
+                sum += i;
+                i++;
+            }
+            document.write("SUM : "+sum+"<br><br><br>")
+
+        /* 
+        ________________________________________________
+            sum of all the number that are divisible by 3 and 5 from 1 - 100; using while loop 
+        */  
+            document.write("*** 02(sum of all the number that are divisible by 3 and 5 from 1 - 100) ***<br>");
+            var i = 1, sum = 0;
+            while(i<=100){
+                if (i % 3 == 0 && i % 5 == 0)
+                {   sum += i;
+                    document.write(i+" ")
+                }
+                i++;
+            }
+            document.write("<br>SUM : "+sum+"<br><br><br>")
+
+    </script>
+</body>
+</html>
