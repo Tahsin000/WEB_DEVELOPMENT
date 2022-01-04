@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         /* 
+        ________________________________________________
+            HighestScore 
+        */  document.write("*** 01( Array || HighestScore function) ***<br>");
+            var Score = new Array();
+            var n = parseInt(prompt("How many score you Enter : '1 - 5' : " ));
+            for(var i= 0; i<n; i++){
+                Score[i] = parseInt(prompt((i + 1) + " score enter Plz : "));
+            }
+            function HighestScore(n){
+                var mx = -1e9;
+                for(var i = 0; i<n.length; i++){
+                    if (mx < n[i]) mx = n[i];
+                }
+                return mx;
+            }
+            document.write("HighestScore : " + HighestScore(Score) + "<br>");
+            document.write("<br><br><br>");
+        
+            
+    </script>
+</body>
+</html>

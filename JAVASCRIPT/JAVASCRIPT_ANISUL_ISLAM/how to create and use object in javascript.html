@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         /* 
+        ________________________________________________
+            how to create and use object in javascript 
+        */  document.write("*** 01( create Object ) ***<br>");
+            var std = {
+                name : "Rahat",
+                age : "23",
+                cgpa : "3.98",
+                course : ["CSE-2421", "CSE-2422", "CSE-2423", "CSE-2424"]
+            }
+            // Access the object 
+            document.write("Student Name : " + std.name + "<br>");
+            document.write("Student Age : " + std.age + "<br>");
+            document.write("Student CGPA : " + std.cgpa + "<br>");
+            document.write("Student Course : " + std.course + "<br>");
+            document.write("<br><br><br>")
+            
+            /* 
+            ________________________________________________
+            how to create multiple object 
+            */  document.write("*** 02( create multiple Object ) ***<br>");
+            function Student(name, age, cgpa, course){
+                this.name = name;
+                this.age = age;
+                this.cgpa = cgpa;
+                this.course = course;
+            }
+            // object template function 
+            function Print(n){
+                document.write("Student name : " +n.name+"<br>");
+                document.write("Student age : " +n.age+"<br>");
+                document.write("Student cgpa : " +n.cgpa+"<br>");
+                document.write("Student course : " +n.course+"<br>");
+                document.write("<br><br><br>");
+            }
+            var std_1 = new Student("Rahat", 23, 3.78, ["CSE-2421", "CSE-2422", "CSE-2423", "CSE-2424"]);
+            var std_2 = new Student("Sakib", 22, 3.50, ["CSE-2421", "CSE-2422", "CSE-2423", "CSE-2424"]);
+            var std_3 = new Student("Rafi", 21, 3.56, ["CSE-2421", "CSE-2422", "CSE-2423", "CSE-2424"]);
+            // object print function();
+            Print(std_1);Print(std_2);Print(std_3);
+
+    </script>
+</body>
+</html>

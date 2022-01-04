@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         /* 
+        ________________________________________________
+            Array 
+        */  document.write("*** 01( Array ) ***<br>");
+            var names = new Array();
+            names[0] = "Tahsin";
+            names[1] = "Abrar";
+            names[2] = "Sakib";
+            names[3] = "Rahat";
+            names[4] = "Joy";
+            for(var i=0; i<names.length; i++){
+                document.write(names[i] + "<br>");
+            }
+            document.write("<br><br><br>");
+        
+        /* 
+        ________________________________________________
+            Array library functions (push)
+        */  document.write("*** 01( Array library functions (push) ) ***<br>");
+            var names = new Array();
+            names[0] = "Tahsin";
+            names[1] = "Abrar";
+            names[2] = "Sakib";
+            names[3] = "Rahat";
+            names[4] = "Joy";
+            names.push("Hasan");
+            names.push("Asif");
+            names.push("Tanim");
+            names.push("Nimur");
+            for(var i=0; i<names.length; i++){
+                document.write(names[i] + "<br>");
+            }
+            document.write("<br><br><br>");
+        /* 
+        ________________________________________________
+            Array library functions (pop)
+        */  document.write("*** 02( Array library functions (pop) ) ***<br>");
+            var names = new Array();
+            names[0] = "Tahsin";
+            names[1] = "Abrar";
+            names[2] = "Sakib";
+            names[3] = "Rahat";
+            names[4] = "Joy";
+            names.push("Hasan");
+            names.push("Asif");
+            names.push("Tanim");
+            names.push("Nimur");
+            names.pop()
+            names.pop()
+            for(var i=0; i<names.length; i++){
+                document.write(names[i] + "<br>");
+            }
+            document.write("<br><br><br>");
+        
+        /* 
+        ________________________________________________
+            Array library functions (concatenation)
+        */  document.write("*** 03( Array library functions (concatenation) ) ***<br>");
+            var names_01 = new Array();
+            names_01[0] = "Name_01_Tahsin";
+            names_01[1] = "Name_01_Abrar";
+            names_01[2] = "Name_01_Sakib";
+            names_01[3] = "Name_01_Rahat";
+            names_01[4] = "Name_01_Joy";
+
+            var names_concat = names.concat(names_01);
+            for(var i=0; i<names_concat.length; i++){
+                document.write(names_concat[i] + "<br>");
+            }
+            document.write("<br><br><br>");
+                
+            
+    </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         /* 
+        ________________________________________________
+            Array related methods (shift)
+        */  document.write("*** 01( Array related methods[shift] ) ***<br>");
+            var names = new Array();
+            names[0] = "Tahsin";
+            names[1] = "Abrar";
+            names[2] = "Sakib";
+            names[3] = "Rahat";
+            names[4] = "Joy";
+            names.shift();
+            document.write(names);
+            document.write("<br><br><br>");
+        
+         /* 
+        ________________________________________________
+            Array related methods (unshift)
+        */  document.write("*** 02( Array related methods[unshift] ) ***<br>");
+            // var names = new Array();
+            names[0] = "Tahsin";
+            names[1] = "Abrar";
+            names[2] = "Sakib";
+            names[3] = "Rahat";
+            names[4] = "Joy";
+            names.unshift("fahad");
+            document.write(names);
+            document.write("<br><br><br>");
+
+         /* 
+        ________________________________________________
+            Array related methods (splice)
+        */  document.write("*** 03( Array related methods[splice - Add element] ) ***<br>");
+            // var names = new Array();
+            names[0] = "Tahsin";
+            names[1] = "Abrar";
+            names[2] = "Sakib";
+            names[3] = "Rahat";
+            names[4] = "Joy";
+            //Add element splice (add number , remove number , Add element);
+            names.splice(2, 0, "Nayem", "Khalid");
+            document.write(names);
+            document.write("<br><br><br>");
+        
+         /* 
+        ________________________________________________
+            Array related methods (splice)
+        */  document.write("*** 04( Array related methods[splice - Remove element] ) ***<br>");
+            // var names = new Array();
+            names[0] = "Tahsin";
+            names[1] = "Abrar";
+            names[2] = "Sakib";
+            names[3] = "Rahat";
+            names[4] = "Joy";
+            //Remove element splice (add number , remove number , Add element);
+            names.splice(0, 2);
+            document.write(names);
+            document.write("<br><br><br>");
+        
+         /* 
+        ________________________________________________
+            Array related methods (sort)
+        */  document.write("*** 05( Array related methods [Sort]) ***<br>");
+            // var names = new Array();
+            names[0] = "Tahsin";
+            names[1] = "Abrar";
+            names[2] = "Sakib";
+            names[3] = "Rahat";
+            names[4] = "Fahim";
+            // sort
+            names = names.sort();
+            document.write(names);
+            document.write("<br><br><br>");
+        
+         /* 
+        ________________________________________________
+            Array related methods (sort - reverse)
+        */  document.write("*** 06( Array related methods - [Sort - reverse]) ***<br>");
+            // var names = new Array();
+            names[0] = "Tahsin";
+            names[1] = "Abrar";
+            names[2] = "Sakib";
+            names[3] = "Rahat";
+            names[4] = "Fahim";
+            // sort
+            names = names.sort();
+            names = names.reverse();
+            document.write(names);
+            document.write("<br><br><br>");
+        
+         /* 
+        ________________________________________________
+            Array related methods (number sort)
+        */  document.write("*** 07( Array related methods - [number sort)]) ***<br>");
+            // var names = new Array();
+            var v = new Array();
+            v[0] = 10; 
+            v[1] = 15; 
+            v[2] = 20; 
+            v[3] = 25; 
+            v[4] = 30; 
+            // Immediately Invoked Function Expression - IIFE
+            v.sort(function(a, b){
+                return b - a;
+            });
+            document.write(v);
+            document.write("<br><br><br>");
+        
+            
+    </script>
+</body>
+</html>
