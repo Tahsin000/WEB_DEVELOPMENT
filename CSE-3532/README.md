@@ -22,15 +22,23 @@
         Task - 05
         <ol type="1">
             <li>TOPIC(28-03-2022)
-                <ol type="1">
+                <ol>
                     <li><a href="https://code.jquery.com/jquery-3.6.0.min.js">jquery cdn</a></li>
                     <li><a href="https://plugins.jquery.com/">jquery pluging</a></li>
                     <li><a href="https://jqueryui.com/datepicker/">jquery plugin datepicker</a></li>
                     <li><a href="https://cdnjs.com/libraries/jquery-validate">jquery-validate</a></li>
                 </ol>
             </li>
-            <li>Class Code</li>
-            <li>Homework</li>
+            <li>Class Code
+                 <ol>
+                    <li><a href="https://tahsin000.github.io/WEB_DEVELOPMENT/CSE-3532/Task-05/datepicker.html">jquery datepicker</a></li>
+                </ol>
+            </li>
+            <li>Homework (jQuery validation)
+                 <ol>
+                    <li><a href="https://tahsin000.github.io/WEB_DEVELOPMENT/CSE-3532/Task-05/jQuery%20validation%20form/index.html">jQuery validation form</a></li>
+                </ol>
+            </li>
         </ol>
     </li>
 </ul>
