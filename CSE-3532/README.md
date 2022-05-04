@@ -41,5 +41,10 @@
             </li>
         </ol>
     </li>
+    <li>Task - 06 (PHP)</li>
+    <ol>
+        <li><a href="https://raw.githubusercontent.com/Tahsin000/WEB_DEVELOPMENT/master/CSE-3532/Task-06/index.php">Basic</a></li>
+        <li><a href="https://tahsin000.github.io/WEB_DEVELOPMENT/CSE-3532/Task-06/A%20Simple%20HTML%20Form/index.html">A Simple HTML Form</a></li>
+    </ol>
 </ul>
 
