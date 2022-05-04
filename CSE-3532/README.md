@@ -12,14 +12,14 @@
     </li>
     <li> 
         Task -04 (javascript)
-        <ul>
+        <ol type=1>
              <li><a href="https://tahsin000.github.io/WEB_DEVELOPMENT/CSE-3532/Task-04/Topic%20-%2001/index.html">You have to add two numbers with the help of a button</a></li>
              <li><a href="https://tahsin000.github.io/WEB_DEVELOPMENT/CSE-3532/Task-04/Topic%20-%2002/index.html">You have to add two numbers as soon as you press the digits (worst case er problem hote pare)</a></li>
              <li><a href="https://tahsin000.github.io/WEB_DEVELOPMENT/CSE-3532/Task-04/Topic%20-%2003/index.html">You have to add two numbers with 'onblur' property (good time complexity)</a></li>
-        </ul>
+        </ol>
     </li>
     <li>
-        Task - 05
+        Task - 05 (jquery)
         <ol type="1">
             <li>TOPIC(28-03-2022)
                 <ol>
