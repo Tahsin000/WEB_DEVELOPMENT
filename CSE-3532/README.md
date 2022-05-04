@@ -18,5 +18,13 @@
              <li><a href="https://tahsin000.github.io/WEB_DEVELOPMENT/CSE-3532/Task-04/Topic%20-%2003/index.html">You have to add two numbers with 'onblur' property (good time complexity)</a></li>
         </ul>
     </li>
+    <li>
+        Task - 05
+        <ul>
+            <li>###TOPIC(28-03-2022)</li>
+            <li>###Class Code</li>
+            <li>###Homework</li>
+        </ul>
+    </li>
 </ul>
 
