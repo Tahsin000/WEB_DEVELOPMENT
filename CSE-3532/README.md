@@ -20,9 +20,9 @@
     </li>
     <li>
         Task - 05
-        <ul>
+        <ol type="1">
             <li>TOPIC(28-03-2022)
-                <ol>
+                <ol type="1">
                     <li><a href="https://code.jquery.com/jquery-3.6.0.min.js">jquery cdn</a></li>
                     <li><a href="https://plugins.jquery.com/">jquery pluging</a></li>
                     <li><a href="https://jqueryui.com/datepicker/">jquery plugin datepicker</a></li>
@@ -31,7 +31,7 @@
             </li>
             <li>Class Code</li>
             <li>Homework</li>
-        </ul>
+        </ol>
     </li>
 </ul>
 
