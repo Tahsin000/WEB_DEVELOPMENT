@@ -39,7 +39,7 @@
 <li><a href="https://tahsin000.github.io/WEB_DEVELOPMENT/CSE-3532/Task-06/A%20Simple%20HTML%20Form/index.html">A Simple HTML Form</a></li>
 </ol>
 <li>Task - 07 (PHP &amp; SQL)
-<ol>
+<ol type="1">
 <li><a href="https://raw.githubusercontent.com/Tahsin000/WEB_DEVELOPMENT/master/CSE-3532/Task-07/Class%20Work/main.php">Class Work</a></li>
 <li><a href="https://raw.githubusercontent.com/Tahsin000/WEB_DEVELOPMENT/master/CSE-3532/Task-07/Home%20Work/index.php">Home Work</a></li>
 <li><a href="https://raw.githubusercontent.com/Tahsin000/WEB_DEVELOPMENT/master/CSE-3532/Task-07/Home%20Work/Std.sql">SQL</a></li>
