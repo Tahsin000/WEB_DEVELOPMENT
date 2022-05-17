@@ -41,8 +41,8 @@
 <li>Task - 07 (PHP &amp; SQL)
 <ol>
 <li><a href="https://raw.githubusercontent.com/Tahsin000/WEB_DEVELOPMENT/master/CSE-3532/Task-07/Class%20Work/main.php">Class Work</a></li>
+<li><a href="https://raw.githubusercontent.com/Tahsin000/WEB_DEVELOPMENT/master/CSE-3532/Task-07/Home%20Work/index.php">Home Work</a></li>
+<li><a href="https://raw.githubusercontent.com/Tahsin000/WEB_DEVELOPMENT/master/CSE-3532/Task-07/Home%20Work/Std.sql">SQL</a></li>
 </ol>
 </li>
 </ul>
-<div id="gtx-trans" style="position: absolute; left: 75px; top: 311.2px;">&nbsp;</div>
-
