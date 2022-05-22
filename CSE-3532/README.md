@@ -1,4 +1,3 @@
-
 ## Topic
 <ul>
 <li><a href="https://tahsin000.github.io/WEB_DEVELOPMENT/CSE-3532/Task-01/index.html">Task -01 (simple banner website)</a></li>
@@ -45,4 +44,12 @@
 <li><a href="https://raw.githubusercontent.com/Tahsin000/WEB_DEVELOPMENT/master/CSE-3532/Task-07/Home%20Work/Std.sql">SQL</a></li>
 </ol>
 </li>
+<li>Task - 07 (PHP &amp; SQL (INSERT , DELETE))
+<ol type = 1>
+<li><a class="js-navigation-open Link--primary" title="index.php" href="https://github.com/Tahsin000/WEB_DEVELOPMENT/blob/master/CSE-3532/Task-08/index.phphttps://raw.githubusercontent.com/Tahsin000/WEB_DEVELOPMENT/master/CSE-3532/Task-08/index.php" data-pjax="#repo-content-pjax-container">Index.php</a></li>
+<li><a href="https://github.com/Tahsin000/WEB_DEVELOPMENT/blob/master/CSE-3532/Task-08/connection.php">Connection.php</a></li>
+<li><a href="https://raw.githubusercontent.com/Tahsin000/WEB_DEVELOPMENT/master/CSE-3532/Task-08/delete.php">Delete.php</a></li>
+</ol>
+</li>
 </ul>
+<div id="gtx-trans" style="position: absolute; left: 62px; top: 392.8px;">&nbsp;</div>
