@@ -44,12 +44,22 @@
 <li><a href="https://raw.githubusercontent.com/Tahsin000/WEB_DEVELOPMENT/master/CSE-3532/Task-07/Home%20Work/Std.sql">SQL</a></li>
 </ol>
 </li>
-<li>Task - 07 (PHP &amp; SQL (INSERT , DELETE))
-<ol type = 1>
+<li>Task - 08 (PHP &amp; SQL (INSERT , DELETE))
+<ol type="1">
 <li><a class="js-navigation-open Link--primary" title="index.php" href="https://github.com/Tahsin000/WEB_DEVELOPMENT/blob/master/CSE-3532/Task-08/index.phphttps://raw.githubusercontent.com/Tahsin000/WEB_DEVELOPMENT/master/CSE-3532/Task-08/index.php" data-pjax="#repo-content-pjax-container">Index.php</a></li>
 <li><a href="https://github.com/Tahsin000/WEB_DEVELOPMENT/blob/master/CSE-3532/Task-08/connection.php">Connection.php</a></li>
 <li><a href="https://raw.githubusercontent.com/Tahsin000/WEB_DEVELOPMENT/master/CSE-3532/Task-08/delete.php">Delete.php</a></li>
+<li><a href="https://github.com/Tahsin000/WEB_DEVELOPMENT/blob/master/CSE-3532/Task-08/5bm.sql">SQL</a></li>
+</ol>
+</li>
+<li>Task - 09 (laravel setup)
+<ol>
+<li>How to setup Laravel ?</li>
+<li>How Laravel multi-page works ?&nbsp;</li>
+<li>How to create multiple routing at Laravel ?&nbsp;</li>
+<li>How to connect to SQL database from Laravel?</li>
+<li>How to preview data from SQL database in Laravel ?</li>
 </ol>
 </li>
 </ul>
-<div id="gtx-trans" style="position: absolute; left: 62px; top: 392.8px;">&nbsp;</div>
+<div id="gtx-trans" style="position: absolute; left: 76px; top: 406.4px;">&nbsp;</div>
