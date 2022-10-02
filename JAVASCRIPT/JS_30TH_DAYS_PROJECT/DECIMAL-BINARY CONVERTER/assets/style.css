@@ -5,11 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-image: url("/assets/IMG.png");
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* background-size: auto; */
-  /* background-color: #0075ff; */
+  background-color: #80cc9f;
 }
 .container {
   background-color: rgba(32, 32, 32, 0.9);
