@@ -1,4 +1,4 @@
-# DECIMAL-BINARY CONVERTER
+# PASSWORD GENERATOR
 
 ## Asstes Folder allocation
 
