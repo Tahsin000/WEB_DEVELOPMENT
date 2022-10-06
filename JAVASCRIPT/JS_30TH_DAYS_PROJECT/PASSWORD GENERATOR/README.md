@@ -1,8 +1,8 @@
-## DECIMAL-BINARY CONVERTER
+# DECIMAL-BINARY CONVERTER
 
-### Asstes Folder allocation
+## Asstes Folder allocation
 
-#### [Click ME](https://github.com/Tahsin000/WEB_DEVELOPMENT/tree/master/JAVASCRIPT/Password Generator/assets)
+### [Click ME](https://github.com/Tahsin000/WEB_DEVELOPMENT/tree/master/JAVASCRIPT/JS_30TH_DAYS_PROJECT/PASSWORD%20GENERATOR/assets)
 
 ### Files Tree
 
@@ -304,4 +304,4 @@ generateBin.addEventListener("click", generatePassword);
 
 ## Live Preview
 
-### [Click ME](https://tahsin000.github.io/WEB_DEVELOPMENT/JAVASCRIPT/JS_30TH_DAYS_PROJECT/)
+### [Click ME](https://tahsin000.github.io/WEB_DEVELOPMENT/JAVASCRIPT/JS_30TH_DAYS_PROJECT/PASSWORD%20GENERATOR/assets/index.html)
