@@ -1,0 +1,15 @@
+Alerts
+	https://getbootstrap.com/docs/4.0/components/alerts/
+Badges
+	https://getbootstrap.com/docs/4.0/components/badge/
+Buttons
+	Outline buttons :
+	https://getbootstrap.com/docs/4.0/components/buttons/
+Button group:
+	https://getbootstrap.com/docs/4.0/components/button-group/#basic-example
+Cards:
+	https://getbootstrap.com/docs/4.0/components/card/#example
+
+
+
+
