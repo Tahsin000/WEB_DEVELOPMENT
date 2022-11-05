@@ -1,5 +1,5 @@
 
-<h1>3. JAVASCRIPT&nbsp;</h1>
+<h1>JAVASCRIPT&nbsp;</h1>
 <ul>
 <li>
 <h3><a href="https://github.com/Tahsin000/WEB_DEVELOPMENT/tree/master/JAVASCRIPT/JAVASCRIPT_ANISUL_ISLAM">JAVASCRIPT_ANISUL_ISLAM</a></h3>
