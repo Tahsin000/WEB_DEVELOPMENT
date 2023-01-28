@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World! </h1>
+      <button type="submit" class="btn">button-1</button>
+      <button type="submit" class="btn">button-2</button>
+      <button type="submit" class="btn">button-3</button>
+      <script>
+        var n = 3;
+        for(let i=0; i<n; i++){
+          var btn =  document.querySelectorAll(".btn")[i];
+          btn.addEventListener("click", function(){
+            var text = this.innerHTML;
+            document.querySelector("h1").innerHTML =  text + "click";
+            
+          });
+        }
+      </script>
+  </body>
+</html>
