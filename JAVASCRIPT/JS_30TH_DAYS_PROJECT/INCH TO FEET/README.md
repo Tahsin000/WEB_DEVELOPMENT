@@ -1,8 +1,8 @@
 # Inch to Feet
 
-## Live view: [Cilck ME](https://tahsin000.github.io/INFLUENCER-PRODUCTS/index.html)
+## Live view: [Cilck ME](https://tahsin000.github.io/WEB_DEVELOPMENT/JAVASCRIPT/JS_30TH_DAYS_PROJECT/INCH%20TO%20FEET/index.html)
 
-## Code view: [Clik ME](https://github.com/Tahsin000/INFLUENCER-PRODUCTS/blob/main/index.html)
+## Code view: [Clik ME](https://github.com/Tahsin000/WEB_DEVELOPMENT/tree/JAVASCRIPT/JAVASCRIPT/JS_30TH_DAYS_PROJECT/INCH%20TO%20FEET#js)
 
 ### HTML
 
