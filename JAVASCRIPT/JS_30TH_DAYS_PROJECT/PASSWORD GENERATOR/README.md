@@ -1,8 +1,8 @@
 # PASSWORD GENERATOR
 
-## Asstes Folder allocation
+### Live Preview - [Click ME](https://tahsin000.github.io/WEB_DEVELOPMENT/JAVASCRIPT/JS_30TH_DAYS_PROJECT/PASSWORD%20GENERATOR/assets/index.html)
 
-### [Click ME](https://github.com/Tahsin000/WEB_DEVELOPMENT/tree/master/JAVASCRIPT/JS_30TH_DAYS_PROJECT/PASSWORD%20GENERATOR/assets)
+### Asstes Folder allocation - [Click ME](https://github.com/Tahsin000/WEB_DEVELOPMENT/tree/master/JAVASCRIPT/JS_30TH_DAYS_PROJECT/PASSWORD%20GENERATOR/assets)
 
 ### Files Tree
 
@@ -301,7 +301,3 @@ copyIcon.addEventListener("click", copyPassword);
 lengthSlider.addEventListener("input", updateSlider);
 generateBin.addEventListener("click", generatePassword);
 ```
-
-## Live Preview
-
-### [Click ME](https://tahsin000.github.io/WEB_DEVELOPMENT/JAVASCRIPT/JS_30TH_DAYS_PROJECT/PASSWORD%20GENERATOR/assets/index.html)
