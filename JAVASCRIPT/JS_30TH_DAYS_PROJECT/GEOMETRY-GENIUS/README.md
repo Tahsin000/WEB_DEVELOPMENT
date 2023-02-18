@@ -1,8 +1,8 @@
 # GEOMETRY-GENIUS
 
-### Live Preview - [Click ME]()
+### Live Preview - [Click ME](https://tahsin000.github.io/WEB_DEVELOPMENT/JAVASCRIPT/JS_30TH_DAYS_PROJECT/GEOMETRY-GENIUS/index.html)
 
-### Code Preview - [Click ME]()
+### Code Preview - [Click ME](https://github.com/Tahsin000/WEB_DEVELOPMENT/blob/JAVASCRIPT/JAVASCRIPT/JS_30TH_DAYS_PROJECT/GEOMETRY-GENIUS/index.html)
 
 ### Files Tree
 
