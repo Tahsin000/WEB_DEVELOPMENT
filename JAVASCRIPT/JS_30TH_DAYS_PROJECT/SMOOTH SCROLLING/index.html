@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smooth Scrolling</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      margin: auto 10rem;
+    }
+    .__section1 {
+      background-color: bisque;
+    }
+    .__section2 {
+      background-color: rgb(200, 255, 196);
+    }
+    .__section3 {
+      background-color: rgb(196, 243, 255);
+    }
+    .__section4 {
+      background-color: rgb(206, 196, 255);
+    }
+    .__section5 {
+      background-color: rgb(255, 196, 251);
+    }
+    .__section6 {
+      background-color: rgb(255, 196, 196);
+    }
+    .__section {
+      /* margin-top: 5rem; */
+      height: 100vh;
+      display: flex;
+      /* flex-direction: row; */
+      align-items: center;
+      justify-content: center;
+    }
+    .__title {
+      text-align: center;
+      font-size: 5rem;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+        position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #333;
+      padding: 30px;
+      color: #fff;
+    }
+
+    .logo a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 24px;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links li {
+      margin: 0 10px;
+    }
+
+    .nav-links li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .hamburger {
+      display: none;
+      cursor: pointer;
+    }
+
+    .hamburger .line {
+      width: 30px;
+      height: 4px;
+      background-color: #fff;
+      margin: 5px;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+  <body>
+    <div class="__section1">
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#footer">Footer</a></li>
+        </ul>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+      <div id="home" class="container">
+        <div class="__section">
+          <p  class="__title">Home Section</p>
+        </div>
+      </div>
+    </div>
+    <div class="__section2">
+      <div id="about" class="container">
+        <div class="__section">
+          <p class="__title">About Section</p>
+        </div>
+      </div>
+    </div>
+    <div class="__section3">
+      <div id="services" class="container">
+        <div class="__section">
+          <p class="__title">Services Section</p>
+        </div>
+      </div>
+    </div>
+    <div class="__section4">
+      <div id="contact" class="container">
+        <div class="__section">
+          <p class="__title">Contact Section</p>
+        </div>
+      </div>
+    </div>
+    <div class="__section6">
+      <div id="footer" class="container">
+        <div class="__section">
+          <p class="__title">Footer Section</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
